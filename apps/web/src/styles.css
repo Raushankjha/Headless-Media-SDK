@@ -180,14 +180,25 @@ h1 {
 }
 .reel-caption {
   position: absolute;
-  bottom: 18px;
+  top: 18px;
   left: 18px;
-  right: 18px;
-  display: flex;
-  justify-content: space-between;
+  display: inline-flex;
+  max-width: calc(100% - 36px);
+  gap: 12px;
+  align-items: center;
   color: #fff;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
-  padding: 48px 12px 12px;
+  background: rgba(0, 0, 0, 0.58);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+.reel-caption strong,
+.reel-caption span {
+  min-width: 0;
+}
+.reel-caption strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .overlay {
   position: fixed;
