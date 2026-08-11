@@ -1,0 +1,274 @@
+:root {
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  color: #17202a;
+  background: #f5f6f8;
+  font-synthesis: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+button,
+input {
+  font: inherit;
+}
+.app-shell {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 24px 72px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-end;
+  margin-bottom: 28px;
+}
+.eyebrow {
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 12px;
+  font-weight: 800;
+  color: #667085;
+}
+h1 {
+  margin: 0;
+  font-size: clamp(32px, 5vw, 56px);
+  letter-spacing: -0.04em;
+}
+.sub {
+  margin: 12px 0 0;
+  color: #667085;
+}
+.event {
+  padding: 8px 12px;
+  border: 1px solid #d9dde3;
+  border-radius: 999px;
+  background: #fff;
+  color: #667085;
+  font-size: 13px;
+}
+.search {
+  display: flex;
+  gap: 10px;
+  margin: 24px 0 30px;
+}
+.search input {
+  flex: 1;
+  min-width: 0;
+  padding: 14px 16px;
+  border: 1px solid #cfd4dc;
+  border-radius: 12px;
+  background: #fff;
+  outline: none;
+}
+.search input:focus {
+  border-color: #667085;
+  box-shadow: 0 0 0 3px #e8eaee;
+}
+.search button,
+.lightbox-meta button {
+  border: 0;
+  border-radius: 12px;
+  padding: 0 20px;
+  background: #17202a;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+.media-card {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4/5;
+  padding: 0;
+  border: 0;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #ddd;
+  cursor: pointer;
+}
+.media-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.25s;
+}
+.media-card:hover img {
+  transform: scale(1.03);
+}
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  color: #17202a;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.status,
+.empty {
+  text-align: center;
+  padding: 28px;
+  color: #667085;
+}
+.error {
+  padding: 14px;
+  border: 1px solid #efb3b3;
+  background: #fff4f4;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  color: #a33;
+}
+.reels-section {
+  margin-top: 52px;
+}
+.section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 28px;
+}
+.section-title h2 {
+  margin: 0;
+  font-size: 28px;
+}
+.section-title span {
+  color: #667085;
+  font-size: 13px;
+}
+.reels {
+  height: 680px;
+  border-radius: 18px;
+  overflow: auto;
+  background: #111;
+  scrollbar-width: none;
+}
+.reels::-webkit-scrollbar {
+  display: none;
+}
+.reel {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #111;
+}
+.reel video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.reel-caption {
+  position: absolute;
+  bottom: 18px;
+  left: 18px;
+  right: 18px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+  padding: 48px 12px 12px;
+}
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background: rgba(10, 13, 18, 0.9);
+  outline: none;
+}
+.lightbox-content {
+  max-width: min(1000px, 95vw);
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.lightbox-content img,
+.lightbox-content video {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 12px;
+  
+}
+.close {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  font-size: 28px;
+  cursor: pointer;
+}
+.lightbox-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.lightbox-meta button {
+  padding: 10px 14px;
+}
+.config {
+  max-width: 700px;
+  margin: 15vh auto;
+  padding: 24px;
+}
+.config code {
+  background: #eee;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 650px) {
+  .app-shell {
+    padding: 24px 14px 48px;
+  }
+  header {
+    display: block;
+  }
+  .event {
+    display: inline-block;
+    margin-top: 18px;
+  }
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 9px;
+  }
+  .reels {
+    height: 75vh;
+  }
+  .search button {
+    padding: 0 14px;
+  }
+}

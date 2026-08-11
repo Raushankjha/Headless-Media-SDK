@@ -1,0 +1,25 @@
+{
+  "name": "@headless-media/web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@headless-media/media-core": "0.1.0",
+    "@headless-media/media-react": "0.1.0",
+    "@headless-media/media-ui-react": "0.1.0",
+    "@vitejs/plugin-react": "^5.0.2",
+    "vite": "^7.1.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "typescript": "^5.9.2"
+  }
+}

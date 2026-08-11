@@ -1,0 +1,21 @@
+
+  [32m[1mVITE[22m v7.3.6[39m  [2mready in [0m[1m735[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m9:37:53 am[22m [36m[1m[vite][22m[39m [32m.env changed, restarting server...[39m
+[2m9:37:53 am[22m [36m[1m[vite][22m[39m server restarted.
+[2m9:37:57 am[22m [36m[1m[vite][22m[39m [32m.env changed, restarting server...[39m
+[2m9:37:57 am[22m [36m[1m[vite][22m[39m server restarted.
+[2m9:56:01 am[22m [36m[1m[vite][22m[39m changed tsconfig file detected: C:/Users/divya/Downloads/headless-media-sdk-npm/headless-media-sdk/apps/web/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m11:19:33 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Reels.tsx[22m
+[2m11:19:33 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m11:23:23 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Reels.tsx[22m
+[2m11:58:24 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/divya/Downloads/headless-media-sdk-npm/headless-media-sdk/packages/media-react/dist/context/MediaProvider.js[22m
+[2m11:58:33 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m11:58:44 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m11:58:50 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m11:58:59 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m11:59:07 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m1:38:47 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/divya/Downloads/headless-media-sdk-npm/headless-media-sdk/packages/media-react/dist/context/MediaProvider.js[22m
+[2m3:07:23 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m3:10:51 pm[22m [36m[1m[vite][22m[39m changed tsconfig file detected: C:/Users/divya/Downloads/headless-media-sdk-npm/headless-media-sdk/apps/web/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
