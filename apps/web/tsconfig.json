@@ -3,6 +3,12 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "noEmit": true,
+    "baseUrl": "../..",
+    "paths": {
+      "@headless-media/media-core": ["packages/media-core/src/index.ts"],
+      "@headless-media/media-react": ["packages/media-react/src/index.ts"],
+      "@headless-media/media-ui-react": ["packages/media-ui-react/src/index.ts"]
+    },
     "lib": ["ES2022", "DOM", "DOM.Iterable"]
   },
   "include": ["src", "vite.config.ts"]
